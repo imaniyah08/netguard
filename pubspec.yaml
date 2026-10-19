@@ -1,0 +1,23 @@
+name: netguard
+description: "NETGUARD: Guardians of the Cyber Network - game edukasi TKJ & RPL"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3   # penyimpanan lokal (progress, skor)
+  # flame: ^1.18.0             # aktifkan jika ingin mode eksplorasi 2D (sprite, collision)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/images/    # taruh karakter Guardian, Virax, background di sini
